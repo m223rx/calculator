@@ -118,9 +118,10 @@ export default function PhoneScreen() {
                             {isHistoryVisible && (
                                 <div className="calculator__history text-gray-500 items-end justify-end flex gap-1">
                                     <ul>
-                                        {history.slice(0, 5).map((item, index) => (
+                                        {history.map((item, index) => (
                                             <li key={index} className="mb-1">{item}</li>
                                         ))}
+
                                         <li className={`text-${history.length > 0 ? '[#c97475]' : '[#ccc]'} ${history.length > 0 && 'underline'} justify-end align-end flex`}>
                                             <button className='cursor-pointer' onClick={() => handleClearHistory()}>
                                                 {history.length > 0 ? 'clear' : 'empty'}
