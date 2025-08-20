@@ -1,3 +1,9 @@
+/*!
+ * Calculator
+ * Copyright (c) 2025 m223rx
+ * All rights reserved.
+ */
+
 import { evaluate } from "mathjs";
 import React, { useEffect, useState } from 'react'
 import { History, Wifi, BatteryLow, ChartNoAxesColumnIncreasing } from 'lucide-react';
