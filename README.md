@@ -62,8 +62,8 @@
 ## ⚡ Usage
 
 1. **Clone the repository:**
-git clone https://github.com/m223rx/smart-calculator.git
-cd smart-calculator/frontend
+git clone https://github.com/m223rx/calculator.git
+cd calculator/frontend
 
 
 2. **Install dependencies:**
