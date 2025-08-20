@@ -151,26 +151,26 @@ export default function PhoneScreen() {
                         <div className="w-full h-[2px] bg-gradient-to-r from-[#66777f] to-[#092137]" />
                         <div className="calculator__keyboard__box">
                             <div className="calculator__keyboard grid grid-cols-4 gap-2 p-4">
-                                <button className='text-[#c97475] font-bold bg-[#fff] rounded-4xl p-2 text-lg cursor-pointer' onClick={() => handleClearBox()}>C</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'()'} onClick={handleParentheses}>()</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'%'} onClick={(e) => handleButtonClick(e.target.value)}>%</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'/'} onClick={(e) => handleButtonClick(e.target.value)}>/</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'1'} onClick={(e) => handleButtonClick(e.target.value)}>1</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'2'} onClick={(e) => handleButtonClick(e.target.value)}>2</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'3'} onClick={(e) => handleButtonClick(e.target.value)}>3</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'x'} onClick={(e) => handleButtonClick(e.target.value)}>x</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'4'} onClick={(e) => handleButtonClick(e.target.value)}>4</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'5'} onClick={(e) => handleButtonClick(e.target.value)}>5</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'6'} onClick={(e) => handleButtonClick(e.target.value)}>6</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'+'} onClick={(e) => handleButtonClick(e.target.value)}>+</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'7'} onClick={(e) => handleButtonClick(e.target.value)}>7</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'8'} onClick={(e) => handleButtonClick(e.target.value)}>8</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'9'} onClick={(e) => handleButtonClick(e.target.value)}>9</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2' value={'-'} onClick={(e) => handleButtonClick(e.target.value)}>-</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'.'} onClick={(e) => handleButtonClick(e.target.value)}>.</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'0'} onClick={(e) => handleButtonClick(e.target.value)}>0</button>
-                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2' value={'00'} onClick={(e) => handleButtonClick(e.target.value)}>00</button>
-                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 bg-white rounded-4xl' onClick={() => handleResult()}>=</button>
+                                <button className='text-[#c97475] font-bold bg-[#fff] rounded-4xl p-2 text-lg cursor-pointer hover:bg-white/10' onClick={() => handleClearBox()}>C</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'()'} onClick={handleParentheses}>()</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'%'} onClick={(e) => handleButtonClick(e.target.value)}>%</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'/'} onClick={(e) => handleButtonClick(e.target.value)}>/</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'1'} onClick={(e) => handleButtonClick(e.target.value)}>1</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'2'} onClick={(e) => handleButtonClick(e.target.value)}>2</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'3'} onClick={(e) => handleButtonClick(e.target.value)}>3</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'x'} onClick={(e) => handleButtonClick(e.target.value)}>x</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'4'} onClick={(e) => handleButtonClick(e.target.value)}>4</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'5'} onClick={(e) => handleButtonClick(e.target.value)}>5</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'6'} onClick={(e) => handleButtonClick(e.target.value)}>6</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'+'} onClick={(e) => handleButtonClick(e.target.value)}>+</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'7'} onClick={(e) => handleButtonClick(e.target.value)}>7</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'8'} onClick={(e) => handleButtonClick(e.target.value)}>8</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'9'} onClick={(e) => handleButtonClick(e.target.value)}>9</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'-'} onClick={(e) => handleButtonClick(e.target.value)}>-</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'.'} onClick={(e) => handleButtonClick(e.target.value)}>.</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'0'} onClick={(e) => handleButtonClick(e.target.value)}>0</button>
+                                <button className='text-[#fff] font-bold text-lg cursor-pointer p-2 hover:bg-white/10 hover:rounded-sm' value={'00'} onClick={(e) => handleButtonClick(e.target.value)}>00</button>
+                                <button className='text-[#3e9b9e] font-bold text-lg cursor-pointer p-2 bg-white rounded-4xl hover:bg-white/10' onClick={() => handleResult()}>=</button>
                             </div>
                         </div>
                     </div>
